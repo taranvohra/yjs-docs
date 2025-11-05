@@ -15,7 +15,7 @@
 
 * [Editor Bindings](ecosystem/editor-bindings/README.md)
   * [ProseMirror](ecosystem/editor-bindings/prosemirror.md)
-  * [TipTap](ecosystem/editor-bindings/tiptap2.md)
+  * [Tiptap](ecosystem/editor-bindings/tiptap2.md)
   * [Monaco](ecosystem/editor-bindings/monaco.md)
   * [Quill](ecosystem/editor-bindings/quill.md)
   * [CodeMirror](ecosystem/editor-bindings/codemirror.md)
@@ -30,6 +30,7 @@
   * [y-sweet](https://jamsocket.com/y-sweet)
   * [Liveblocks](https://liveblocks.io/yjs)
   * [SuperViz](https://docs.superviz.com/collaboration/integrations/YJS/overview)
+  * [Hocuspocus](https://tiptap.dev/docs/hocuspocus/getting-started)
 * [Database Provider](ecosystem/database-provider/README.md)
   * [y-indexeddb](ecosystem/database-provider/y-indexeddb.md)
   * [y-leveldb](ecosystem/database-provider/y-leveldb.md)
