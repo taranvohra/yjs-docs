@@ -14,7 +14,7 @@ This documentation website is a work in progress. The best source of information
 
 It exposes its internal CRDT model as _shared data types_ that can be manipulated concurrently. Shared types are similar to common data types like `Map` and `Array`. They can be manipulated, fire events when changes happen, and automatically merge without merge conflicts.
 
-Small update!
+Small update 2!
 
 ## Quick Start
 
