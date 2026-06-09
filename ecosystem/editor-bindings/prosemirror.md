@@ -1,5 +1,5 @@
 ---
-description: Shared Editing with the ProseMirror Editor !!!
+description: Shared Editing with the ProseMirror Editor !!! ---
 ---
 
 # ProseMirror
