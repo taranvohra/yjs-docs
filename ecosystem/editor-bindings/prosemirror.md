@@ -1,10 +1,10 @@
 ---
-description: Shared Editing with the ProseMirror Editor
+description: Shared Editing with the ProseMirror Editor !!!
 ---
 
 # ProseMirror
 
-[ProseMirror](https://prosemirror.net) is a fantastic toolkit to build your own richtext editor. [Tiptap](broken-reference), [Remirror](remirror.md), and [Atlaskit ](https://atlaskit.atlassian.com/packages/editor/editor-core/example/full-page)are all based on ProseMirror. The [y-prosemirror](https://github.com/yjs/y-prosemirror/) module exports ProseMirror plugins that make any ProseMirror-based editor collaborative. The module even ensures that the document still conforms to the specified schema. The following demo shows how shared editing, cursors, shared undo/redo, and versions can be implemented using the ProseMirror editor toolkit.
+[ProseMirror](https://prosemirror.net) is a fantastic toolkit to build your own richtext editor. [Tiptap](broken-reference/), [Remirror](remirror.md), and [Atlaskit ](https://atlaskit.atlassian.com/packages/editor/editor-core/example/full-page)are all based on ProseMirror. The [y-prosemirror](https://github.com/yjs/y-prosemirror/) module exports ProseMirror plugins that make any ProseMirror-based editor collaborative. The module even ensures that the document still conforms to the specified schema. The following demo shows how shared editing, cursors, shared undo/redo, and versions can be implemented using the ProseMirror editor toolkit.
 
 {% embed url="https://github.com/yjs/y-prosemirror/" %}
 
@@ -22,7 +22,7 @@ The yjs-demos repository contains multiple demos for the ProseMirror editor. Jus
 
 ## Caveats
 
-Index positions don't work as expected in ProseMirror if you use this module. Instead of indexes, you should use [relative positions](../../api/relative-positions.md) that are based on the Yjs document. Relative positions always point to the place where you originally put them (relatively speaking). In peer-to-peer editing, it is impossible to transform index positions so that everyone ends up with the same positions.&#x20;
+Index positions don't work as expected in ProseMirror if you use this module. Instead of indexes, you should use [relative positions](../../api/relative-positions.md) that are based on the Yjs document. Relative positions always point to the place where you originally put them (relatively speaking). In peer-to-peer editing, it is impossible to transform index positions so that everyone ends up with the same positions.
 
 Features such as comments should either be implemented as document state or using relative positions.
 
@@ -45,4 +45,3 @@ In peer-to-peer shared editing, there is no linear history of edits. I suggest t
 The yjs.dev website has a ProseMirror example that shows that versions work even with a lot of collaborators. The document has been online since February 2020 and still doesn't slow down. Only content that is relevant to the local version history is preserved.
 
 {% embed url="https://yjs.dev/" %}
-
